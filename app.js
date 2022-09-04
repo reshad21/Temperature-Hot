@@ -4,7 +4,7 @@ const loadTemparature = (cityname) => {
         .then(res => res.json())
         .then(data => displayTemperature(data))
 }
-loadTemparature("dhaka");
+loadTemparature("Barishal");
 
 
 const displayTemperature =(tempDetails)=>{
